@@ -1,0 +1,20 @@
+# Example config for Mapping & Monitoring Sand Bars
+image: data/S2_2024-01-05_Forcados.tif
+aoi: data/aoi.geojson
+scale: 10000   # for Sentinel-2 L2A scaled reflectance; set to 1.0 if already 0-1
+bands:
+  blue: 1
+  green: 2
+  red: 3
+  nir: 4
+  swir1: 5
+water:
+  method: mndwi
+  thr_method: otsu   # or quantile
+sand:
+  min_area_px: 100
+  ndvi_max: 0.15
+  bsi_thr_method: quantile
+  bsi_q: 0.7
+vectorize:
+  min_area_m2: 500.0
