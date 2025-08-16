@@ -43,7 +43,8 @@ Then select imagery, AOI, and thresholds interactively.
 ## Notes
 - If your imagery is top-of-atmosphere reflectance with 0–1 scale, indices work directly. If DN-scaled (0–10000), set `--scale 10000`.
 - Tweak thresholds using quantiles if Otsu fails (e.g., cloudy scenes).
+- 
 - Ensure AOI CRS matches imagery or let the pipeline reproject automatically.
-
+https://github.com/Akajiaku11
 ---
 
