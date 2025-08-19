@@ -47,4 +47,4 @@ Then select imagery, AOI, and thresholds interactively.
 - Ensure AOI CRS matches imagery or let the pipeline reproject automatically.
 https://github.com/Akajiaku11
 ---
-
+**Ugochukwu Charles Akajiaku**
